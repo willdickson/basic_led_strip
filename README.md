@@ -14,7 +14,7 @@ See the 'firmware' subdirectory.  Requires the ArduinoJson, NeoPixel and Streami
 Python Example
 --------------
 
-```
+```python
 from __future__ import print_function
 from basic_led_strip import BasicLedStrip
 
@@ -34,8 +34,7 @@ led_strip.off()
 Python library Installation
 ----------------------------
 
-```
-#!bash
+```bash
 
 $ python setup.py install 
 
