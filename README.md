@@ -11,7 +11,7 @@ Arduino Firmware
 See the 'firmware' subdirectory.  Requires the ArduinoJson, NeoPixel and Streaming libraries. 
 
 
-Python Example
+Python example
 --------------
 
 ```python
@@ -31,15 +31,20 @@ led_strip.off()
 ```
 
 
-Python library Installation
+Python library installation
 ----------------------------
 
 ```bash
 
 $ python setup.py install 
 
+or 
+
+$ python setup.py develop
+
 
 ```
+
 
 
 Links
