@@ -7,7 +7,7 @@ a lower power microcontroller such as a Arduino Uno or Nano.
 Example
 --------
 
-```
+```python
 from __future__ import print_function
 from basic_led_strip import BasicLedStrip
 
@@ -27,10 +27,13 @@ led_strip.off()
 Installation
 ------------
 
-```
-#!bash
+```bash
 
 $ python setup.py install 
+
+or 
+
+$ python setup.py develop
 
 
 ```
